@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<!-- This loads Foundation CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet"
+		type="text/css">
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="topbar-responsive.css" rel="stylesheet" type="text/css">
+
+	<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- This loads Foundation JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+	<!-- Finally, this starts foundation for everything on the page -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(document).foundation();
+		});
+	</script>
+
+	<script type="text/javascript">
+	</script>
+</head>
+
+<body>
+	<div class="navigation">
+		<nav class="top-bar topbar-responsive">
+			<div class="top-bar-title">
+				<span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+					<button class="menu-icon" type="button" data-toggle></button>
+				</span>
+				<a class="topbar-responsive-logo" href="index.html"><strong>Chris Rodriguez</strong></a>
+			</div>
+			<div id="topbar-responsive" class="topbar-responsive-links">
+				<div class="top-bar-right">
+					<ul class="menu simple vertical medium-horizontal">
+						<li class="index"><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="projects.html">PROJECTS</a></li>
+						<li>
+							<a href="contact.html"><button type="button"
+									class="button hollow topbar-responsive-button">CONTACT</button></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="homecontainer">
+		<div class="grid-x test">
+			<div class="large-12 columns small-12 columns">
+				<h1 class="intro">- Hello, I'm Chris.</h1>
+				<br>
+				<p class="bio">I'm a self-taught, <span class="md">multidisciplinary</span> designer, student, and
+					business
+					owner
+					based in Nashville, Tennessee currently studying Computer Science. I enjoy coding, motion design, branding,
+					UI/UX, and web development. I've had the privilege of working with well over <span class="num">
+						300 clients</span>.
+					<br><br>
+					Thanks for stopping by.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="experience2">
+		<div class="grid-x">
+			<div class="large-12 medium-12 small-12 cell">
+				<h3 class="team">What I Can Do</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrappercontainer">
+		<div class="wrapper">
+			<div class="feature-wrapper">
+				<a class="card link" href="about.html" data-event-type="button" data-event-label="find out more">
+					<h3 class="cardtitle">Design</h3>
+					<p class="cardinfo">I offer a plethora of skills and services that relate to design. I specialize in
+						software UI and
+						motion design. I can also do branding, general graphic work, and many other things. If what you
+						have
+						in mind isn't in this list, just ask.</p>
+					<span class="view-all">Learn more</span>
+				</a>
+			</div>
+			<div class="feature-wrapper">
+				<a class="card link" href="about.html" data-event-type="button" data-event-label="find out more">
+					<h3 class="cardtitle">Code</h3>
+					<p class="cardinfo">I am familiar with several technologies. These include Java, Python, PHP, MySQL,
+						HTML, CSS, and JavaScript.</p>
+					<span class="view-all">Learn more</span>
+				</a>
+			</div>
+			<div class="feature-wrapper">
+				<a class="card link" href="about.html" data-event-type="button" data-event-label="find out more">
+					<h3 class="cardtitle">Web Development</h3>
+					<p class="cardinfo">I have experience developing complex, and well-designed websites. You are
+						looking at
+						a website I developed, right now!</p>
+					<span class="view-all">Learn more</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<a class="footerbutton" href="index.html">HOME</a>
+		<a class="footerbutton" href="about.html">ABOUT</a>
+		<a class="footerbutton" href="projects.html">PROJECTS</a>
+		<a class="footerbutton" href="contact.html">CONTACT</a>
+	</footer>
+
+	<div class="footer2">
+		<p class="developed">site developed by yours truly - chrisleerod@gmail.com
+		</p>
+	</div>
+
+</body>
+
+</html>

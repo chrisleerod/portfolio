@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- This loads Foundation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet"
+        type="text/css">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="topbar-responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- This loads Foundation JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+    <!-- Finally, this starts foundation for everything on the page -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).foundation();
+        });
+    </script>
+
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="top-bar topbar-responsive">
+            <div class="top-bar-title">
+                <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+                    <button class="menu-icon" type="button" data-toggle></button>
+                </span>
+                <a class="topbar-responsive-logo" href="index.html"><strong>Chris Rodriguez</strong></a>
+            </div>
+            <div id="topbar-responsive" class="topbar-responsive-links">
+                <div class="top-bar-right">
+                    <ul class="menu simple vertical medium-horizontal">
+                        <li class="index"><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li>
+                            <a href="contact.html"><button type="button"
+                                    class="button hollow topbar-responsive-button">CONTACT</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="experience">
+        <div class="color grid-x grid-padding-x grid-padding-y align-center">
+            <a class="link3" href="kodai.html">
+                <div class="kodai large-12 medium-12 small-12 cell">
+                    <div class="large-3 medium-4 small-12 cell"><img class="logo3" src="kodai.svg" alt="kodai-logo">
+                    </div>
+                    <div class="overlay3">
+                        <div class="text3">Kodai<br>
+                            <p class="number">Software LLC • 47k followers</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link" href="cybersole.html">
+                <div class="cybersole large-12 medium-12 small-12 cell">
+                    <div class="bg large-3 medium-4 small-12 cell"><img class="logo1" src="cyber.svg"
+                            alt="cybersole-logo">
+                    </div>
+                    <div class="overlay">
+                        <div class="text">Cybersole<br>
+                            <p class="number">Software LLC • 90k followers</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link2" href="botbroker.html">
+                <div class="botbroker large-12 medium-12 small-12 cell">
+                    <div class="large-3 medium-4 small-12 cell"><img class="logo2" src="botbroker.png"
+                            alt="botbroker-logo">
+                    </div>
+                    <div class="overlay2">
+                        <div class="text2">BotBroker
+                            <br>
+                            <p class="number2">Software Trading LLC • 36k followers</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a class="footerbutton" href="index.html">HOME</a>
+        <a class="footerbutton" href="about.html">ABOUT</a>
+        <a class="footerbutton" href="projects.html">PROJECTS</a>
+        <a class="footerbutton" href="contact.html">CONTACT</a>
+    </footer>
+
+    <div class="footer2">
+        <p class="developed">site developed by yours truly - chrisleerod@gmail.com
+        </p>
+    </div>
+
+</body>
+
+</html>
